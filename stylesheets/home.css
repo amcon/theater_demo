@@ -1,0 +1,196 @@
+#main-content .homepage-header {
+	background-image: url('../images/performance_bright.jpg');
+	background-size: cover;
+	width: 100%;
+}
+
+#main-content .homepage-header .homepage-header-overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, .3);
+}
+
+#main-content .homepage-header .main-width {
+	min-height: 28em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#main-content .homepage-header .main-width .tagline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 7em;
+}
+
+#main-content .homepage-header .main-width .tagline img {
+	height: 3em;
+	margin-right: 1em;
+}
+
+#main-content .homepage-header .main-width .tagline h2 {
+	color: white;
+	font-size: 2.35em;
+	font-weight: 700;
+}
+
+#main-content .homepage-header .main-width h3 {
+	font-size: 1.25em;
+	margin-top: 1em;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#main-content .homepage-header .main-width .production-searchbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 3em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar input {
+	height: 50px;
+	background-color: rgb(229, 243, 249);
+	border: none;
+	box-sizing: border-box;
+	width: 85%;
+	padding: 1em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar input::-webkit-input-placeholder {
+	font-size: 1.25em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar input::-moz-placeholder {
+	font-size: 1.25em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar input:-ms-input-placeholder {
+	font-size: 1.25em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar input:-moz-placeholder {
+	font-size: 1.25em;
+}
+
+#main-content .homepage-header .main-width .production-searchbar .btn-primary {
+	height: 50px;
+}
+
+#main-content .homepage-header .main-width .production-search-filters {
+	width: 100%;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .miles {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .miles h3, #main-content .homepage-header .main-width .production-search-filters .miles label {
+	color: white;
+	margin-right: .25em;
+	font-size: .75em;
+	margin-top: 0;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .miles input, #main-content .homepage-header .main-width .production-search-filters .miles h3 {
+	margin-right: 3em;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .miles input {
+    height: 13px;
+    margin-top: -1px;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .order {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#main-content .homepage-header .main-width .production-search-filters .order h3, #main-content .homepage-header .main-width .production-search-filters .order a, #main-content .homepage-header .main-width .production-search-filters .order p {
+	color: white;
+	font-size: .75em;
+	margin-top: 0;
+	margin-right: 2em;
+}
+
+
+#main-content .content-area {
+	background-color: rgb(229, 243, 249);
+}
+
+#main-content .content-area .main-width {
+	min-height: 300px;
+}
+
+#main-content .content-area .main-width .production-list {
+	width: 100%;
+	padding-top: 2em;
+	clear: both;
+	content: '';
+	display: table;
+}
+
+#main-content .content-area .main-width .production-list .production {
+	width: 32%;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	background-color: white;
+	margin-right: 2%;
+	float: left;
+	margin-bottom: 1.5em;
+	box-shadow: 0 4px 2px -2px rgba(129, 1, 99, .2);
+}
+
+#main-content .content-area .main-width .production-list .production:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+#main-content .content-area .main-width .production-list .production img {
+	max-width: 35%;
+	height: auto;
+	align-self: flex-start;
+}
+
+#main-content .content-area .main-width .production-list .production .production-info {
+	width: 65%;
+	padding: .5em .75em;
+	background-color: white;
+}
+
+#main-content .content-area .main-width .production-list .production .production-info h4 {
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: .35em;
+	color: rgb(129, 1, 99);
+}
+
+#main-content .content-area .main-width .production-list .production .production-info p {
+	font-size: .65em;
+	font-weight: 400;
+	margin-bottom: .75em;
+}
+
+#main-content .content-area .main-width .production-list .production .production-info .like-follow {
+	display: flex;
+	align-items: flex-end;
+}
+
+#main-content .content-area .main-width .production-list .production .production-info .like-follow p {
+	margin-right: 1em;
+	margin-bottom: 0;
+	font-size: .5em;
+}
+
+#main-content .content-area .main-width .production-list .production .production-info .like-follow .fa {
+	margin-right: .25em;
+	color: rgb(129, 1, 99);
+}
+
