@@ -154,13 +154,13 @@
 }
 
 #main-content .content-area .main-width .production-list .production img {
-	max-width: 35%;
+	max-width: 30%;
 	height: auto;
 	align-self: flex-start;
 }
 
 #main-content .content-area .main-width .production-list .production .production-info {
-	width: 65%;
+	width: 70%;
 	padding: .5em .75em;
 	background-color: white;
 }
