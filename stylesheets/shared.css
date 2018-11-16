@@ -69,6 +69,10 @@ header .main-width {
 	align-items: center;
 }
 
+header #create {
+	width: 100px;
+}
+
 header #home-logo {
 	height: 2.5em;
 }
